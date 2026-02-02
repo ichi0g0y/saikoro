@@ -16,13 +16,13 @@ describe('Saikoro Basic', () => {
     checkValue(random())
   })
 
-  test('with seed "nantokaworks"', async () => {
-    const random = saikoro({ seed: 'nantokaworks' })
-    expect(random()).toBe(0.14878266444429755)
-    expect(random()).toBe(0.6606966687832028)
-    expect(random()).toBe(0.7268656345549971)
-    expect(random()).toBe(0.9279048922471702)
-    expect(random()).toBe(0.7912824773229659)
+  test('with seed "ichi0g0y"', async () => {
+    const random = saikoro({ seed: 'ichi0g0y' })
+    expect(random()).toBe(0.6113398938905448)
+    expect(random()).toBe(0.6059006913565099)
+    expect(random()).toBe(0.632007792359218)
+    expect(random()).toBe(0.7772839844692498)
+    expect(random()).toBe(0.8071133128833026)
   })
 
   test('with range 1 ~ 10, 1000 times', async () => {

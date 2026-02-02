@@ -7,12 +7,11 @@
     "seed",
     "range"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nantokaworks/saikoro.git"
-  },
+  "repository": "github:ichi0g0y/saikoro",
+  "bugs": "https://github.com/ichi0g0y/saikoro/issues",
+  "homepage": "https://github.com/ichi0g0y/saikoro#readme",
   "license": "MIT",
-  "author": "Yamashita, Shinichi",
+  "author": "Shinichi Yamashita",
   "type": "module",
   "exports": {
     ".": {
@@ -32,9 +31,9 @@
     "prepublish": "pnpm build",
     "test": "vitest --run"
   },
-  "prettier": "prettier-config-nantokaworks",
+  "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-nantokaworks": "^0.1.1",
+    "prettier-config-ichi0g0y": "file:../prettier-config",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.29.0",
