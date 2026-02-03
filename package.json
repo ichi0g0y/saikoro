@@ -33,7 +33,7 @@
   },
   "prettier": "prettier-config-ichi0g0y",
   "devDependencies": {
-    "prettier-config-ichi0g0y": "file:../prettier-config",
+    "prettier-config-ichi0g0y": "^0.1.2",
     "eslint": "^8.53.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.29.0",
